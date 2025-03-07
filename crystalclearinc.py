@@ -177,7 +177,7 @@ for d in os.listdir('pressure-washing'):
                     try:
                         search_categories = open(f'pressure-washing/{d}/{c}/{b}', "r", encoding="utf8").read()
                         
-                        op= search_categories.replace("﻿", '').replace('https://crystalclearinc.biz/', 'https://crystalclearinc.netlify.app/').replace('http://crystalclearinc.biz/', 'https://crystalclearinc.netlify.app/').replace('(206) 875-0352', '(888) 498-9391').replace('tel:2068750352', 'tel:8884989391')
+                        op= search_categories.replace("﻿", '').replace('https://crystalclearinc.biz/', 'https://crystalclearinc.netlify.app/').replace('http://crystalclearinc.biz/', 'https://crystalclearinc.netlify.app/').replace('(206) 875-0352', '(888) 498-9391').replace('tel:2068750352', 'tel:8884989391').replace('bedcandfunnel','bedc&funnel')
          
                         
                         fp = open(f'pressure-washing/{d}/{c}/{b}', "w", encoding='utf-8-sig')
@@ -193,7 +193,7 @@ for d in os.listdir('pressure-washing'):
 for d in os.listdir('pressure-washing'):
     try:
         search_categories = open(f'pressure-washing/{d}/index.html', "r", encoding="utf8").read()
-        op= search_categories.replace("﻿", '').replace('https://crystalclearinc.biz/', 'https://crystalclearinc.netlify.app/').replace('http://crystalclearinc.biz/', 'https://crystalclearinc.netlify.app/').replace('(206) 875-0352', '(888) 498-9391').replace('tel:2068750352', 'tel:8884989391')
+        op= search_categories.replace("﻿", '').replace('https://crystalclearinc.biz/', 'https://crystalclearinc.netlify.app/').replace('http://crystalclearinc.biz/', 'https://crystalclearinc.netlify.app/').replace('(206) 875-0352', '(888) 498-9391').replace('tel:2068750352', 'tel:8884989391').replace('bedcandfunnel','bedc&funnel')
         # if 'pressure-washing' in str(d):
         #     shutil.rmtree(f'pressure-washing/{d}')
             
@@ -216,7 +216,7 @@ for d in os.listdir('pressure-washing'):
 try:
     search_categories = open(f'pressure-washing/index.html', "r", encoding="utf8").read()
     
-    op= search_categories.replace("﻿", '').replace('https://crystalclearinc.biz/', 'https://crystalclearinc.netlify.app/').replace('http://crystalclearinc.biz/', 'https://crystalclearinc.netlify.app/').replace('(206) 875-0352', '(888) 498-9391').replace('tel:2068750352', 'tel:8884989391')
+    op= search_categories.replace("﻿", '').replace('https://crystalclearinc.biz/', 'https://crystalclearinc.netlify.app/').replace('http://crystalclearinc.biz/', 'https://crystalclearinc.netlify.app/').replace('(206) 875-0352', '(888) 498-9391').replace('tel:2068750352', 'tel:8884989391').replace('bedcandfunnel','bedc&funnel')
     
     fp = open(f'pressure-washing/index.html', "w", encoding='utf-8-sig')
     fp.writelines(op)
@@ -227,7 +227,7 @@ except:
 try:
     search_categories = open(f'index.html', "r", encoding="utf8").read()
     
-    op= search_categories.replace("﻿", '').replace('https://crystalclearinc.biz/', 'https://crystalclearinc.netlify.app/').replace('http://crystalclearinc.biz/', 'https://crystalclearinc.netlify.app/').replace('(206) 875-0352', '(888) 498-9391').replace('tel:2068750352', 'tel:8884989391')
+    op= search_categories.replace("﻿", '').replace('https://crystalclearinc.biz/', 'https://crystalclearinc.netlify.app/').replace('http://crystalclearinc.biz/', 'https://crystalclearinc.netlify.app/').replace('(206) 875-0352', '(888) 498-9391').replace('tel:2068750352', 'tel:8884989391').replace('bedcandfunnel','bedc&funnel')
     
     fp = open(f'pressure-washing/index.html', "w", encoding='utf-8-sig')
     fp.writelines(op)
